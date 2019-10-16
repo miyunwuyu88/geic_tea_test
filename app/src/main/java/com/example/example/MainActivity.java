@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             webView = null;
         }
 
-        webView.clearCache(true);
+        //webView.clearCache(true);
         CookieSyncManager.createInstance(this);
         CookieSyncManager.getInstance().startSync();
         CookieManager.getInstance().removeSessionCookie();
